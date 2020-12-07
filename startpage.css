@@ -1,0 +1,47 @@
+body {
+  background-image: url("../pic/sample/285937.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.top{
+  text-align: center;
+  letter-spacing: 6px;
+  font-family: 'Noto Serif JP', serif;
+  color: white;
+}
+#g{
+  margin-top: 300px
+
+}
+#w{
+  display: inline-block;
+  padding: 8px;
+  margin-top: 200px;
+  border: 1px solid white;
+}
+#w:hover{
+  opacity: 0.4;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.top a{
+  display: block;
+}
+a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+/* body {
+   background-color: 486d46;
+   background-image: url("pic/IMG_2197.JPG");
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center center;
+} */
+/* text-align: center;
+margin-top: 300px;
+letter-spacing: 4px;
+font-family: 'Noto Serif JP', serif;
+color: white; */

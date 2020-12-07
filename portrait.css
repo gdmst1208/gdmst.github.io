@@ -1,0 +1,35 @@
+body{
+  font-family: 'Noto Serif JP', serif;
+  background-color: black;
+  color: white;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+.main-nav{
+  list-style: none;
+  display: flex;
+}
+.main-nav li{
+  margin-left: 30px;
+}
+.page-header{
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+.grid{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 6%;
+  margin-bottom: 50px;
+}
