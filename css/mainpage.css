@@ -46,6 +46,15 @@ img{
   width: 100%;
   object-fit: cover;
 }
+.wedding{
+  grid-column: 1/4;
+  grid-row: 7/9;
+}
+.wedding img{
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+}
 .landscape{
 
   grid-column: 2/4;
@@ -76,6 +85,7 @@ img{
   width: 100%;
   object-fit: cover;
 }
+
 .masato:hover{
   opacity: 0.4;
   cursor: pointer;
