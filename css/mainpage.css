@@ -10,6 +10,13 @@ a{
 img{
   max-width: 100%;
 }
+.description{
+  text-align: center;
+  padding-top: 20px;
+}
+.description h1{
+  font-size: 30px;
+}
 .main-nav{
   list-style: none;
   display: flex;
